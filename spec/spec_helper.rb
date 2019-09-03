@@ -1,7 +1,5 @@
 require 'yaml'
-{
-    :yaml => 3
-}
+
 
 RSpec.configure do |config|
 
