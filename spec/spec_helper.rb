@@ -5,7 +5,7 @@ rubies = YAML.load(File.read(File.join(__dir__, '..', '.travis.yml')))['rvm']
 RSpec.configure do |config|
  config.expect_with :rspec do |expectations|
   def __
-    # raise "replace underscore with code"
+    config.mock_with :rspec do |mocks|
   end
 
 end
